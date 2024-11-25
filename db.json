@@ -1,0 +1,34 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "role": "Admin"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "role": "Editor"
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "name": "Admin",
+        "permissions": ["read", "write", "delete"]
+      },
+      {
+        "id": 2,
+        "name": "Editor",
+        "permissions": ["read", "write"]
+      },
+      {
+        "id": 3,
+        "name": "Viewer",
+        "permissions": ["read"]
+      }
+    ]
+  }
+  
